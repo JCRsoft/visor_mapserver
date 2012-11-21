@@ -1,0 +1,3937 @@
+/3.2
+(ODB.1
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	32
+)
+
+(Project.2
+	Name:	"visorjar.apr"
+	CreationDate:	"lunes, 14 de noviembre de 2011 18:16:44"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	56
+	ActiveDoc:	56
+	Buttons:	503
+	Buttons:	504
+	Buttons:	505
+	Scripts:	506
+	Prefs:	507
+	WorkDir:	1334
+	WinX:	11
+	WinY:	-4
+	WinW:	950
+	WinH:	733
+	SerialNumber:	"527491146970"
+	SelColor:	1335
+	GUINames:	1336
+	GUINames:	1337
+	GUINames:	1338
+	GUINames:	1339
+	GUINames:	1340
+	GUINames:	1341
+	GUINames:	1342
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	5
+	Y:	5
+	W:	238
+	H:	324
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(Table.6
+	Name:	"Attributes of 26_jardinext.shp"
+	CreationDate:	"lunes, 14 de noviembre de 2011 18:32:42"
+	GUIName:	"Table"
+	Win:	7
+	CSMgr:	8
+	DocExts:	502
+	VTab:	14
+)
+
+(DocWin.7
+	Owner:	6
+	X:	35
+	Y:	35
+	W:	365
+	H:	255
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"RespondTable"
+)
+
+(FTheme.10
+	Name:	"26_jardinext.shp"
+	Source:	11
+	Flags:	0x07
+	Legend:	25
+	Threshold:	55
+	View:	56
+	GSet:	500
+	LegEditScript:	"View.EditLegend"
+	TxPos:	501
+	LabelField:	19
+	Table:	6
+	SnapTolCursor:	1
+)
+
+(ShpSrc.11
+	Name:	12
+	FTab:	14
+)
+
+(SrcName.12
+	FileName:	13
+	Name:	"26_jardinext.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.13
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jardinext.shp"
+)
+
+(FTab.14
+	Name:	"26_jardinext.dbf"
+	BTab:	15
+	Fields:	23
+	Fields:	16
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	21
+	SelBits:	24
+	FSrc:	11
+)
+
+(dBASE.15
+	Name:	"26_jardinext.dbf"
+	Fields:	16
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	21
+	FileName:	22
+)
+
+(Field.16
+	Name:	"Item"
+	Btab:	15
+	Alias:	"Item"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(Field.17
+	Name:	"Corx"
+	Btab:	15
+	Alias:	"Corx"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(Field.18
+	Name:	"Cory"
+	Btab:	15
+	Alias:	"Cory"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(Field.19
+	Name:	"Descrip"
+	Btab:	15
+	Alias:	"Descrip"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.20
+	Name:	"Point_x"
+	Btab:	15
+	Alias:	"Point_x"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(Field.21
+	Name:	"Point_y"
+	Btab:	15
+	Alias:	"Point_y"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(FN.22
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jardinext.dbf"
+)
+
+(Field.23
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.24
+	NumBits:	6
+
+)
+
+(Legend.25
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	26
+	Class:	45
+	StdDevs:	1.00000000000000
+	NullSym:	46
+	NullValues:	53
+	StatValues:	54
+	Precision:	-3
+)
+
+(SymList.26
+	Child:	27
+)
+
+(CMkSym.27
+	Color:	28
+	Symbols:	29
+	BgColor:	44
+	Size:	14.00000000000000
+)
+
+(TClr.28
+	Red:	0xffff
+)
+
+(SymList.29
+	Child:	30
+	Child:	37
+)
+
+(BMkSym.30
+	Color:	31
+	BgColor:	32
+	Font:	33
+	Size:	14.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.31
+	Red:	0xffff
+)
+
+(TClr.32
+	Name:	"Transparent"
+)
+
+(NFont.33
+	Family:	34
+	Name:	35
+	Style:	36
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.34
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.35
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.36
+	S:	"Normal"
+)
+
+(BMkSym.37
+	Color:	38
+	ColorLock:	1
+	BgColor:	39
+	Font:	40
+	Size:	14.00000000000000
+	Pattern:	83
+	Angle:	360.00000000000000
+)
+
+(TClr.38
+)
+
+(TClr.39
+	Name:	"Transparent"
+)
+
+(NFont.40
+	Family:	41
+	Name:	42
+	Style:	43
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.41
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.42
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.43
+	S:	"Normal"
+)
+
+(TClr.44
+	Name:	"Transparent"
+)
+
+(LClass.45
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.46
+	Color:	47
+	BgColor:	48
+	Font:	49
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.47
+	Name:	"Transparent"
+)
+
+(TClr.48
+	Name:	"Transparent"
+)
+
+(NFont.49
+	Family:	50
+	Name:	51
+	Style:	52
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.50
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.51
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.52
+	S:	"Normal"
+)
+
+(NameDict.53
+)
+
+(NameDict.54
+)
+
+(Thresh.55
+)
+
+(View.56
+	Name:	"View1"
+	CreationDate:	"lunes, 14 de noviembre de 2011 18:28:11"
+	GUIName:	"View"
+	Win:	57
+	CSMgr:	58
+	DocExts:	60
+	DocExts:	61
+	Graphics:	62
+	Theme:	289
+	Theme:	10
+	Theme:	319
+	Theme:	350
+	Theme:	383
+	Theme:	420
+	Theme:	448
+	Theme:	474
+	Dpy:	284
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.57
+	Owner:	56
+	Open:	1
+	X:	247
+	Y:	5
+	W:	683
+	H:	589
+)
+
+(CSMgr.58
+	Client:	59
+)
+
+(CSClient.59
+	Client:	60
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.60
+	Doc:	56
+)
+
+(DocAct.61
+	Doc:	56
+)
+
+(GList.62
+	Child:	63
+	Child:	76
+	Child:	78
+	Child:	80
+	Child:	82
+	Child:	84
+	Child:	86
+	Child:	88
+	Child:	90
+	Child:	92
+	Child:	94
+	Child:	96
+	Child:	98
+	Child:	100
+	Child:	102
+	Child:	104
+	Child:	106
+	Child:	108
+	Child:	110
+	Child:	112
+	Child:	114
+	Child:	116
+	Child:	118
+	Child:	120
+	Child:	122
+	Child:	124
+	Child:	126
+	Child:	128
+	Child:	130
+	Child:	132
+	Child:	134
+	Child:	136
+	Child:	138
+	Child:	140
+	Child:	142
+	Child:	144
+	Child:	146
+	Child:	148
+	Child:	150
+	Child:	152
+	Child:	154
+	Child:	156
+	Child:	158
+	Child:	160
+	Child:	162
+	Child:	164
+	Child:	166
+	Child:	168
+	Child:	170
+	Child:	172
+	Child:	174
+	Child:	176
+	Child:	178
+	Child:	180
+	Child:	192
+	Child:	194
+	Child:	196
+	Child:	198
+	Child:	200
+	Child:	202
+	Child:	204
+	Child:	206
+	Child:	208
+	Child:	210
+	Child:	212
+	Child:	214
+	Child:	216
+	Child:	218
+	Child:	220
+	Child:	222
+	Child:	224
+	Child:	226
+	Child:	228
+	Child:	230
+	Child:	232
+	Child:	234
+	Child:	236
+	Child:	238
+	Child:	240
+	Child:	242
+	Child:	244
+	Child:	246
+	Child:	248
+	Child:	250
+	Child:	252
+	Child:	254
+	Child:	256
+	Child:	258
+	Child:	260
+	Child:	262
+	Child:	274
+	Child:	276
+	Child:	278
+	Child:	280
+	Child:	282
+	Dpy:	284
+	FormatNumb:	288
+)
+
+(GLabel.63
+	Bounds:	64
+	Sym:	65
+	Text:	"Río Ichó"
+	Angle:	32.59758840357427
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.64
+	Left:	1069826.87376793360000
+	Top:	1132359.26778775410000
+	Right:	1072009.92197413700000
+	Bottom:	1130636.56236881760000
+)
+
+(TxSym.65
+	Color:	66
+	Scale:	67
+	Font:	68
+	BgColor:	73
+	OlColor:	74
+	Size:	47238.94952432488900
+)
+
+(TClr.66
+)
+
+(Numb.67
+	N:	0.00029636560806
+)
+
+(NFont.68
+	Family:	69
+	Name:	70
+	Style:	71
+	CommonFamily:	72
+	Weight:	1
+	Wideness:	1
+	UseCaching:	1
+)
+
+(AVStr.69
+	S:	"Arial"
+)
+
+(AVStr.70
+	S:	"Arial"
+)
+
+(AVStr.71
+	S:	"Normal"
+)
+
+(AVStr.72
+	S:	"Helvetica"
+)
+
+(TClr.73
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.74
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(List.75
+	Child:	63
+	Child:	76
+	Child:	78
+	Child:	80
+	Child:	82
+	Child:	84
+	Child:	86
+	Child:	88
+	Child:	90
+	Child:	92
+	Child:	94
+	Child:	96
+	Child:	98
+	Child:	100
+	Child:	102
+	Child:	104
+	Child:	106
+	Child:	108
+	Child:	110
+	Child:	112
+	Child:	114
+	Child:	116
+	Child:	118
+	Child:	120
+	Child:	122
+	Child:	124
+	Child:	126
+	Child:	128
+	Child:	130
+	Child:	132
+	Child:	134
+	Child:	136
+	Child:	138
+	Child:	140
+	Child:	142
+	Child:	144
+	Child:	146
+	Child:	148
+	Child:	150
+	Child:	152
+	Child:	154
+	Child:	156
+	Child:	158
+	Child:	160
+	Child:	162
+	Child:	164
+	Child:	166
+	Child:	168
+	Child:	170
+	Child:	172
+	Child:	174
+	Child:	176
+	Child:	178
+)
+
+(GLabel.76
+	Bounds:	77
+	Sym:	65
+	Text:	"Río Necorá"
+	Angle:	59.90898915332074
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.77
+	Left:	1059582.21062772330000
+	Top:	1136995.64016121460000
+	Right:	1061626.87233855650000
+	Bottom:	1134117.83147386210000
+)
+
+(GLabel.78
+	Bounds:	79
+	Sym:	65
+	Text:	"Río Guaitadó"
+	Angle:	48.06609333025728
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.79
+	Left:	1064863.12810763790000
+	Top:	1114238.22805718220000
+	Right:	1067639.92593332820000
+	Bottom:	1111251.99457546250000
+)
+
+(GLabel.80
+	Bounds:	81
+	Sym:	65
+	Text:	"Río Tutunendó"
+	Angle:	9.30187576786063
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.81
+	Left:	1064679.69556440620000
+	Top:	1126074.32411196320000
+	Right:	1068573.43888221010000
+	Bottom:	1124806.46890466520000
+)
+
+(GLabel.82
+	Bounds:	83
+	Sym:	65
+	Text:	"Quebrada Paina"
+	Angle:	10.13399081741846
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.83
+	Left:	1032463.15906501750000
+	Top:	1139229.26823432300000
+	Right:	1036737.94290616140000
+	Bottom:	1137839.96953354640000
+)
+
+(GLabel.84
+	Bounds:	85
+	Sym:	65
+	Text:	"Río Tanandó"
+	Angle:	57.73658951331748
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.85
+	Left:	1062449.77606717780000
+	Top:	1118902.42300167030000
+	Right:	1064794.26122049800000
+	Bottom:	1115717.17721455100000
+)
+
+(GLabel.86
+	Bounds:	87
+	Sym:	65
+	Text:	"Río Tangui"
+	Angle:	25.55174179125900
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.87
+	Left:	1023649.96658613980000
+	Top:	1142687.35445409220000
+	Right:	1026496.00522754740000
+	Bottom:	1140870.07352401130000
+)
+
+(GLabel.88
+	Bounds:	89
+	Sym:	65
+	Text:	"Río Guarando"
+	Angle:	6.87013287637973
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.89
+	Left:	1010757.47877545340000
+	Top:	1137086.70004600380000
+	Right:	1014457.66474070030000
+	Bottom:	1135998.95549655080000
+)
+
+(GLabel.90
+	Bounds:	91
+	Sym:	65
+	Text:	"Río Pató"
+	Angle:	48.45509851265918
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.91
+	Left:	1014783.15436878890000
+	Top:	1104420.67327670570000
+	Right:	1016775.39120547930000
+	Bottom:	1102291.43555468670000
+)
+
+(GLabel.92
+	Bounds:	93
+	Sym:	65
+	Text:	"Río Samurino"
+	Angle:	285.06943164899428
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.93
+	Left:	1051768.54628689170000
+	Top:	1109170.75992159030000
+	Right:	1053326.61404986770000
+	Bottom:	1105566.42572290920000
+)
+
+(GLabel.94
+	Bounds:	95
+	Sym:	65
+	Text:	"Quebrada Jerugadó"
+	Angle:	7.02826318404371
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.95
+	Left:	1034989.01278721840000
+	Top:	1127566.49276655870000
+	Right:	1040193.97285453100000
+	Bottom:	1126283.52833147630000
+)
+
+(GLabel.96
+	Bounds:	97
+	Sym:	65
+	Text:	"Río Urudó"
+	Angle:	78.58925985486179
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.97
+	Left:	1018054.05697972820000
+	Top:	1104043.18995998330000
+	Right:	1019221.58868342980000
+	Bottom:	1101315.14923340850000
+)
+
+(GLabel.98
+	Bounds:	99
+	Sym:	65
+	Text:	"Quebrada Chirichirí"
+	Angle:	340.34667470117796
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.99
+	Left:	1018346.69853630100000
+	Top:	1114401.40313515210000
+	Right:	1023325.00374734230000
+	Bottom:	1112084.41665926060000
+)
+
+(GLabel.100
+	Bounds:	101
+	Sym:	65
+	Text:	"Quebrada Urandú"
+	Angle:	31.73298789179651
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.101
+	Left:	1050992.00139846420000
+	Top:	1137173.43689132020000
+	Right:	1055287.83345651210000
+	Bottom:	1134172.24456509900000
+)
+
+(GLabel.102
+	Bounds:	103
+	Sym:	65
+	Text:	"Río Cabi"
+	Angle:	332.97567830972628
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.103
+	Left:	1057072.33331353820000
+	Top:	1125002.34560450170000
+	Right:	1059386.82929547110000
+	Bottom:	1123389.40730402340000
+)
+
+(GLabel.104
+	Bounds:	105
+	Sym:	65
+	Text:	"Quebrada Pichindé"
+	Angle:	328.38934014447483
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.105
+	Left:	1028150.95979040550000
+	Top:	1136580.73862739580000
+	Right:	1032730.18247812080000
+	Bottom:	1133415.30669082400000
+)
+
+(GLabel.106
+	Bounds:	107
+	Sym:	65
+	Text:	"Quebrada EL Rosario"
+	Angle:	350.20400934542687
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.107
+	Left:	1053851.42046957210000
+	Top:	1114494.12999272420000
+	Right:	1059503.81553389060000
+	Bottom:	1112890.94222297890000
+)
+
+(GLabel.108
+	Bounds:	109
+	Sym:	65
+	Text:	"Quebrada Amparraidó"
+	Angle:	79.37548034017733
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.109
+	Left:	1010198.11041317500000
+	Top:	1123879.43478423150000
+	Right:	1011902.61970334470000
+	Bottom:	1118109.59387600960000
+)
+
+(GLabel.110
+	Bounds:	111
+	Sym:	65
+	Text:	"RÍO PURRÉ"
+	Angle:	25.84939527344656
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.111
+	Left:	1059908.67735711040000
+	Top:	1119298.54160656010000
+	Right:	1063105.65671162940000
+	Bottom:	1117297.80263799690000
+)
+
+(GLabel.112
+	Bounds:	113
+	Sym:	65
+	Text:	"Quebrada Baratudo"
+	Angle:	17.34220092930260
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.113
+	Left:	1064426.14249103840000
+	Top:	1135618.05745421510000
+	Right:	1069487.83894267140000
+	Bottom:	1133472.22311433540000
+)
+
+(GLabel.114
+	Bounds:	115
+	Sym:	65
+	Text:	"Quebrada Otó"
+	Angle:	310.84979927845080
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.115
+	Left:	1013553.39024036110000
+	Top:	1109861.30473780980000
+	Right:	1016457.14625841770000
+	Bottom:	1106647.98483625470000
+)
+
+(GLabel.116
+	Bounds:	117
+	Sym:	65
+	Text:	"Quebrada Jaíco"
+	Angle:	338.12599222250265
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.117
+	Left:	1057352.59243950340000
+	Top:	1108792.58030505500000
+	Right:	1061438.94572652880000
+	Bottom:	1106641.30406330430000
+)
+
+(GLabel.118
+	Bounds:	119
+	Sym:	65
+	Text:	"Quebrada Purdu"
+	Angle:	61.52587930775586
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.119
+	Left:	1055281.78525197180000
+	Top:	1138515.19549561080000
+	Right:	1057904.23881093550000
+	Bottom:	1134430.57828139210000
+)
+
+(GLabel.120
+	Bounds:	121
+	Sym:	65
+	Text:	"Quebrada Pandó"
+	Angle:	58.76551102897941
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.121
+	Left:	1050325.33438171190000
+	Top:	1123051.29859692510000
+	Right:	1053175.96786299600000
+	Bottom:	1118935.57648168570000
+)
+
+(GLabel.122
+	Bounds:	123
+	Sym:	65
+	Text:	"Quebrada Ipurdú"
+	Angle:	310.34941520804688
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.123
+	Left:	1045835.53743041910000
+	Top:	1133452.45197858590000
+	Right:	1049177.38652181460000
+	Bottom:	1129682.54455414580000
+)
+
+(GLabel.124
+	Bounds:	125
+	Sym:	65
+	Text:	"Quebrada Aguaclara"
+	Angle:	358.60564345257285
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.125
+	Left:	1053315.00403310890000
+	Top:	1120193.70578899510000
+	Right:	1058689.69064061510000
+	Bottom:	1119407.36734591420000
+)
+
+(GLabel.126
+	Bounds:	127
+	Sym:	65
+	Text:	"Quebrada Paimadó"
+	Angle:	88.13124829803870
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.127
+	Left:	1036439.16910750810000
+	Top:	1110886.62093573580000
+	Right:	1037259.01913351360000
+	Bottom:	1105835.64166265820000
+)
+
+(GLabel.128
+	Bounds:	129
+	Sym:	65
+	Text:	"Quebrada  Guinando"
+	Angle:	89.52312800447881
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.129
+	Left:	1021388.88293525520000
+	Top:	1136921.75418226260000
+	Right:	1022090.06144820110000
+	Bottom:	1131497.12400204390000
+)
+
+(GLabel.130
+	Bounds:	131
+	Sym:	65
+	Text:	"Quebrada Jengadó"
+	Angle:	346.37489520277666
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.131
+	Left:	1013543.72584076820000
+	Top:	1120982.77879424740000
+	Right:	1018525.15973573770000
+	Bottom:	1119175.16242556580000
+)
+
+(GLabel.132
+	Bounds:	133
+	Sym:	65
+	Text:	"Quebrada Julián"
+	Angle:	57.30732132605483
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.133
+	Left:	1020335.41438434040000
+	Top:	1111697.46629953500000
+	Right:	1023191.03704384690000
+	Bottom:	1107754.06276057290000
+)
+
+(GLabel.134
+	Bounds:	135
+	Sym:	65
+	Text:	"Quebrada Ipató"
+	Angle:	24.24308774199758
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.135
+	Left:	1039478.28724338180000
+	Top:	1134823.31175813010000
+	Right:	1043426.84020515930000
+	Bottom:	1132568.27125145290000
+)
+
+(GLabel.136
+	Bounds:	137
+	Sym:	65
+	Text:	"Quebrada Ojó"
+	Angle:	309.86575799627030
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.137
+	Left:	1016527.91998289620000
+	Top:	1107320.63113039340000
+	Right:	1019369.77483932690000
+	Bottom:	1104100.14201811860000
+)
+
+(GLabel.138
+	Bounds:	139
+	Sym:	65
+	Text:	"Quebrada Chiquinquirá"
+	Angle:	344.90309639602560
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.139
+	Left:	1043142.38018205750000
+	Top:	1142638.03309523290000
+	Right:	1049109.35215309980000
+	Bottom:	1140441.01152472150000
+)
+
+(GLabel.140
+	Bounds:	141
+	Sym:	65
+	Text:	"Quebrada  La Hondita"
+	Angle:	24.36908083398365
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.141
+	Left:	1031733.13929408840000
+	Top:	1141778.17039093100000
+	Right:	1037209.31987297800000
+	Bottom:	1138822.60971125680000
+)
+
+(GLabel.142
+	Bounds:	143
+	Sym:	65
+	Text:	"Quebrada Bagaradó"
+	Angle:	359.90084937353549
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.143
+	Left:	1029892.18829840790000
+	Top:	1104733.82428566930000
+	Right:	1035148.64894172780000
+	Bottom:	1104068.63437174210000
+)
+
+(GLabel.144
+	Bounds:	145
+	Sym:	65
+	Text:	"Quebrada Madrevieja"
+	Angle:	350.40127394267694
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.145
+	Left:	1034433.84211595530000
+	Top:	1117316.39463889460000
+	Right:	1040048.45675781300000
+	Bottom:	1115738.47252409370000
+)
+
+(GLabel.146
+	Bounds:	147
+	Sym:	65
+	Text:	"Río Suruco"
+	Angle:	326.12967340140153
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.147
+	Left:	1016742.23690455430000
+	Top:	1125893.17336073240000
+	Right:	1019526.61326850950000
+	Bottom:	1123724.91844164630000
+)
+
+(GLabel.148
+	Bounds:	149
+	Sym:	65
+	Text:	"Quebrada Artutu"
+	Angle:	12.94009478636400
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.149
+	Left:	1012767.23123940770000
+	Top:	1140804.17319042100000
+	Right:	1017102.45012198310000
+	Bottom:	1139202.40503080070000
+)
+
+(GLabel.150
+	Bounds:	151
+	Sym:	65
+	Text:	"Quebrada Panchá"
+	Angle:	1.28092596216034
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.151
+	Left:	1054669.17127862880000
+	Top:	1103859.08808001220000
+	Right:	1059393.43382813800000
+	Bottom:	1103097.84847508040000
+)
+
+(GLabel.152
+	Bounds:	153
+	Sym:	65
+	Text:	"Quebrada Salvador"
+	Angle:	1.03544497218834
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.153
+	Left:	1040660.03270063900000
+	Top:	1103734.57602096670000
+	Right:	1045709.88746119740000
+	Bottom:	1102987.53039700790000
+)
+
+(GLabel.154
+	Bounds:	155
+	Sym:	65
+	Text:	"Quebrada La Honda"
+	Angle:	21.07329478824456
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.155
+	Left:	1031496.14665369440000
+	Top:	1142490.98877939510000
+	Right:	1036635.91687836070000
+	Bottom:	1139989.15349038080000
+)
+
+(GLabel.156
+	Bounds:	157
+	Sym:	65
+	Text:	"Quebrada Memeadó"
+	Angle:	342.92518883764257
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.157
+	Left:	1030983.81778093510000
+	Top:	1103454.71727407840000
+	Right:	1036256.59642298990000
+	Bottom:	1101267.13071067560000
+)
+
+(GLabel.158
+	Bounds:	159
+	Sym:	65
+	Text:	"Quebrada La Molana"
+	Angle:	75.32578333770874
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.159
+	Left:	1042955.63444505120000
+	Top:	1112056.25770796140000
+	Right:	1044969.82438709740000
+	Bottom:	1106622.07792742500000
+)
+
+(GLabel.160
+	Bounds:	161
+	Sym:	65
+	Text:	"Quebrada Mácano"
+	Angle:	309.37923885465807
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.161
+	Left:	1030948.82291013290000
+	Top:	1122047.11812418140000
+	Right:	1034502.99025342330000
+	Bottom:	1117918.60227701910000
+)
+
+(GLabel.162
+	Bounds:	163
+	Sym:	65
+	Text:	"Quebrada Catugado"
+	Angle:	305.57767275329672
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.163
+	Left:	1061405.26169194910000
+	Top:	1135280.81266390950000
+	Right:	1064996.46780034900000
+	Bottom:	1130624.78453545640000
+)
+
+(GLabel.164
+	Bounds:	165
+	Sym:	65
+	Text:	"Quebrada La Santa"
+	Angle:	325.28413756460691
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.165
+	Left:	1032103.73606772590000
+	Top:	1126422.02462449860000
+	Right:	1036640.80238452940000
+	Bottom:	1122998.13157462720000
+)
+
+(GLabel.166
+	Bounds:	167
+	Sym:	65
+	Text:	"Quebrada  El Ganado"
+	Angle:	18.64879478228238
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.167
+	Left:	1044860.15233121910000
+	Top:	1137454.15463418770000
+	Right:	1050422.34877218100000
+	Bottom:	1135026.14832336870000
+)
+
+(GLabel.168
+	Bounds:	169
+	Sym:	65
+	Text:	"Quebrada Aguacate"
+	Angle:	74.64171024036612
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.169
+	Left:	1022127.15678216680000
+	Top:	1137692.31244480140000
+	Right:	1024136.08087305480000
+	Bottom:	1132507.82535063480000
+)
+
+(GLabel.170
+	Bounds:	171
+	Sym:	65
+	Text:	"Quebrada Managró"
+	Angle:	80.02780761311443
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.171
+	Left:	1051424.24623110310000
+	Top:	1133859.69031891930000
+	Right:	1052940.73173251000000
+	Bottom:	1128796.30329920260000
+)
+
+(GLabel.172
+	Bounds:	173
+	Sym:	65
+	Text:	"Quebrada Toribio"
+	Angle:	19.76934907305787
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.173
+	Left:	1028231.93786898980000
+	Top:	1118836.84904766640000
+	Right:	1032707.92717966340000
+	Bottom:	1116690.43071130640000
+)
+
+(GLabel.174
+	Bounds:	175
+	Sym:	65
+	Text:	"Quebrada Negra"
+	Angle:	322.98747979804051
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.175
+	Left:	1065732.33628996300000
+	Top:	1132070.92753233250000
+	Right:	1069579.77209070120000
+	Bottom:	1128944.22413785870000
+)
+
+(GLabel.176
+	Bounds:	177
+	Sym:	65
+	Text:	"Quebrada Jenenó"
+	Angle:	18.88094139243471
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.177
+	Left:	1023910.58883295740000
+	Top:	1110247.73543425630000
+	Right:	1028518.12474803790000
+	Bottom:	1108123.75406125000000
+)
+
+(GLabel.178
+	Bounds:	179
+	Sym:	65
+	Text:	"Quebrada Ramón"
+	Angle:	355.20604477998398
+	Spacing:	1.00000000000000
+	Siblings:	75
+)
+
+(RectD.179
+	Left:	1033567.12002459170000
+	Top:	1113542.06453096010000
+	Right:	1038218.17483602760000
+	Bottom:	1112502.79593396210000
+)
+
+(GLabel.180
+	Bounds:	181
+	Sym:	182
+	Text:	"RÍO ATRATO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.181
+	Left:	1044721.49612924060000
+	Top:	1108002.08731897340000
+	Right:	1048277.53927398850000
+	Bottom:	1107345.99079780210000
+)
+
+(TxSym.182
+	Color:	183
+	Scale:	67
+	Font:	184
+	BgColor:	189
+	OlColor:	190
+	Size:	47238.94952432488900
+)
+
+(TClr.183
+)
+
+(NFont.184
+	Family:	185
+	Name:	186
+	Style:	187
+	CommonFamily:	188
+	Weight:	1
+	Wideness:	1
+	UseCaching:	1
+)
+
+(AVStr.185
+	S:	"Arial"
+)
+
+(AVStr.186
+	S:	"Arial"
+)
+
+(AVStr.187
+	S:	"Normal"
+)
+
+(AVStr.188
+	S:	"Helvetica"
+)
+
+(TClr.189
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.190
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(List.191
+	Child:	180
+	Child:	192
+	Child:	194
+	Child:	196
+	Child:	198
+	Child:	200
+	Child:	202
+	Child:	204
+	Child:	206
+	Child:	208
+	Child:	210
+	Child:	212
+	Child:	214
+	Child:	216
+	Child:	218
+	Child:	220
+	Child:	222
+	Child:	224
+	Child:	226
+	Child:	228
+	Child:	230
+	Child:	232
+	Child:	234
+	Child:	236
+	Child:	238
+	Child:	240
+	Child:	242
+	Child:	244
+	Child:	246
+	Child:	248
+	Child:	250
+	Child:	252
+	Child:	254
+	Child:	256
+	Child:	258
+	Child:	260
+)
+
+(GLabel.192
+	Bounds:	193
+	Sym:	182
+	Text:	"RÍO QUITO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.193
+	Left:	1035319.30450221000000
+	Top:	1111425.29059294750000
+	Right:	1038363.59236044430000
+	Bottom:	1110769.19407177620000
+)
+
+(GLabel.194
+	Bounds:	195
+	Sym:	182
+	Text:	"RÍO MUNGUIDO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.195
+	Left:	1023397.18978229850000
+	Top:	1128927.37780182160000
+	Right:	1027825.84130020390000
+	Bottom:	1128271.28128065030000
+)
+
+(GLabel.196
+	Bounds:	197
+	Sym:	182
+	Text:	"RÍO NEGUÁ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.197
+	Left:	1048819.12660323130000
+	Top:	1137663.86185950460000
+	Right:	1052086.48727866380000
+	Bottom:	1137007.76533833330000
+)
+
+(GLabel.198
+	Bounds:	199
+	Sym:	182
+	Text:	"RÍO ICHÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.199
+	Left:	1053013.03926853230000
+	Top:	1132972.02998984070000
+	Right:	1055670.23017927560000
+	Bottom:	1132315.93346866940000
+)
+
+(GLabel.200
+	Bounds:	201
+	Sym:	182
+	Text:	"RÍO CAPÁ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.201
+	Left:	1067434.87964436500000
+	Top:	1106411.88890439570000
+	Right:	1070216.72889413080000
+	Bottom:	1105755.79238322450000
+)
+
+(GLabel.202
+	Bounds:	203
+	Sym:	182
+	Text:	"RÍO PATO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.203
+	Left:	1025577.76407858320000
+	Top:	1108638.42827708110000
+	Right:	1028359.61332834900000
+	Bottom:	1107982.33175590980000
+)
+
+(GLabel.204
+	Bounds:	205
+	Sym:	182
+	Text:	"RÍO BAUDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.205
+	Left:	1009246.12427385520000
+	Top:	1106476.53154207280000
+	Right:	1012513.48494928770000
+	Bottom:	1105820.43502090150000
+)
+
+(GLabel.206
+	Bounds:	207
+	Sym:	182
+	Text:	"RÍO SURUCO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.207
+	Left:	1022492.33852133820000
+	Top:	1122554.95146949120000
+	Right:	1026212.40579637870000
+	Bottom:	1121898.85494832000000
+)
+
+(GLabel.208
+	Bounds:	209
+	Sym:	182
+	Text:	"RÍO PURRÉ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.209
+	Left:	1052814.14055022780000
+	Top:	1116698.47715883210000
+	Right:	1056048.69639960160000
+	Bottom:	1116042.38063766090000
+)
+
+(GLabel.210
+	Bounds:	211
+	Sym:	182
+	Text:	"RÍO CABÍ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.211
+	Left:	1051377.19950799950000
+	Top:	1118973.26926802050000
+	Right:	1053935.97594056700000
+	Bottom:	1118317.17274684920000
+)
+
+(GLabel.212
+	Bounds:	213
+	Sym:	182
+	Text:	"RÍO TANANDO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.213
+	Left:	1047640.30897435810000
+	Top:	1112200.85130359490000
+	Right:	1051681.86354477260000
+	Bottom:	1111544.75478242360000
+)
+
+(GLabel.214
+	Bounds:	215
+	Sym:	182
+	Text:	"RÍO MOJAUDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.215
+	Left:	1018207.10100081030000
+	Top:	1129869.64433334720000
+	Right:	1022314.26522334190000
+	Bottom:	1129213.54781217590000
+)
+
+(GLabel.216
+	Bounds:	217
+	Sym:	182
+	Text:	"RÍO JITRADO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.217
+	Left:	1016203.23967281140000
+	Top:	1132140.28525301670000
+	Right:	1019897.06308700510000
+	Bottom:	1131484.18873184550000
+)
+
+(GLabel.218
+	Bounds:	219
+	Sym:	182
+	Text:	"QUEBRADA CURUNDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.219
+	Left:	1029955.67065780170000
+	Top:	1117111.89238714240000
+	Right:	1036352.61173922070000
+	Bottom:	1116455.79586597110000
+)
+
+(GLabel.220
+	Bounds:	221
+	Sym:	182
+	Text:	"QUEBRADA CURIQUIDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.221
+	Left:	1034206.72298027090000
+	Top:	1132165.94050850790000
+	Right:	1040964.51714833400000
+	Bottom:	1131509.84398733660000
+)
+
+(GLabel.222
+	Bounds:	223
+	Sym:	182
+	Text:	"RÍO TUTUNENDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.223
+	Left:	1056211.67658768660000
+	Top:	1129166.93629393980000
+	Right:	1061060.22987914160000
+	Bottom:	1128510.83977276860000
+)
+
+(GLabel.224
+	Bounds:	225
+	Sym:	182
+	Text:	"RÍO MOTORDO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.225
+	Left:	1054905.28990694440000
+	Top:	1111632.20154012760000
+	Right:	1059137.11246849850000
+	Bottom:	1110976.10501895640000
+)
+
+(GLabel.226
+	Bounds:	227
+	Sym:	182
+	Text:	"QUEBRADA PACURITA"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.227
+	Left:	1053315.90543453300000
+	Top:	1121557.34554359130000
+	Right:	1059680.04168989350000
+	Bottom:	1120901.24902242000000
+)
+
+(GLabel.228
+	Bounds:	229
+	Sym:	182
+	Text:	"QUBRADA GUAYABAL"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.229
+	Left:	1043979.63747938410000
+	Top:	1126884.95674169340000
+	Right:	1050140.38381318140000
+	Bottom:	1126228.86022052220000
+)
+
+(GLabel.230
+	Bounds:	231
+	Sym:	182
+	Text:	"QUEBRADA TUMARADO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.231
+	Left:	1035770.11231915360000
+	Top:	1119254.23573100820000
+	Right:	1042514.78455679330000
+	Bottom:	1118598.13920983700000
+)
+
+(GLabel.232
+	Bounds:	233
+	Sym:	182
+	Text:	"RÍO NEMOTA"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.233
+	Left:	1051085.13988482020000
+	Top:	1142016.69171110910000
+	Right:	1054765.84136859050000
+	Bottom:	1141360.59518993790000
+)
+
+(GLabel.234
+	Bounds:	235
+	Sym:	182
+	Text:	"RÍO TUMUTUMBUDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.235
+	Left:	1062806.26972140720000
+	Top:	1101744.26132505040000
+	Right:	1068612.72393377220000
+	Bottom:	1101088.16480387910000
+)
+
+(GLabel.236
+	Bounds:	237
+	Sym:	182
+	Text:	"RÍO NAURITA"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.237
+	Left:	1054765.84136859070000
+	Top:	1142274.22069581040000
+	Right:	1058518.71346968990000
+	Bottom:	1141618.12417463910000
+)
+
+(GLabel.238
+	Bounds:	239
+	Sym:	182
+	Text:	"RÍO TANGUÍ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.239
+	Left:	1026714.10368754170000
+	Top:	1142537.44134085440000
+	Right:	1030112.68366720840000
+	Bottom:	1141881.34481968310000
+)
+
+(GLabel.240
+	Bounds:	241
+	Sym:	182
+	Text:	"RÍO YUTO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.241
+	Left:	1046758.14845710340000
+	Top:	1101776.10048881130000
+	Right:	1049566.24156771600000
+	Bottom:	1101120.00396764000000
+)
+
+(GLabel.242
+	Bounds:	243
+	Sym:	182
+	Text:	"QUEBRADA JAÍCO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.243
+	Left:	1053012.06483272090000
+	Top:	1109311.13132881090000
+	Right:	1058155.86155870300000
+	Bottom:	1108655.03480763970000
+)
+
+(GLabel.244
+	Bounds:	245
+	Sym:	182
+	Text:	"Río Neguá"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.245
+	Left:	1059216.51318217300000
+	Top:	1140642.61154872440000
+	Right:	1061991.80146672720000
+	Bottom:	1139986.51502755310000
+)
+
+(GLabel.246
+	Bounds:	247
+	Sym:	182
+	Text:	"QUEBRADA PAINA"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.247
+	Left:	1037096.03873015440000
+	Top:	1141179.81005396250000
+	Right:	1042266.07931698320000
+	Bottom:	1140523.71353279120000
+)
+
+(GLabel.248
+	Bounds:	249
+	Sym:	182
+	Text:	"Río Ichó"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.249
+	Left:	1059474.08694709880000
+	Top:	1133903.50986832990000
+	Right:	1061645.76643217540000
+	Bottom:	1133247.41334715860000
+)
+
+(GLabel.250
+	Bounds:	251
+	Sym:	182
+	Text:	"QUEBRADA CONDOTO"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.251
+	Left:	1054258.43886536850000
+	Top:	1131212.15882049310000
+	Right:	1060655.37994678740000
+	Bottom:	1130556.06229932190000
+)
+
+(GLabel.252
+	Bounds:	253
+	Sym:	182
+	Text:	"QUEBRADA JEGUEDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.253
+	Left:	1028132.14287415040000
+	Top:	1101699.16645690120000
+	Right:	1034371.62079048830000
+	Bottom:	1101043.06993573000000
+)
+
+(GLabel.254
+	Bounds:	255
+	Sym:	182
+	Text:	"RÍO SAMURINDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.255
+	Left:	1045376.62885905300000
+	Top:	1110352.94515583800000
+	Right:	1050126.76767233220000
+	Bottom:	1109696.84863466680000
+)
+
+(GLabel.256
+	Bounds:	257
+	Sym:	182
+	Text:	"Río Tutunendó"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.257
+	Left:	1058262.39740853800000
+	Top:	1127048.38323991510000
+	Right:	1062100.56205738940000
+	Bottom:	1126392.28671874390000
+)
+
+(GLabel.258
+	Bounds:	259
+	Sym:	182
+	Text:	"QUEBRADA BORAUDÓ"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.259
+	Left:	1051127.80673834470000
+	Top:	1101736.52269110150000
+	Right:	1057491.94299370520000
+	Bottom:	1101080.42616993030000
+)
+
+(GLabel.260
+	Bounds:	261
+	Sym:	182
+	Text:	"Río Motordo"
+	Spacing:	1.00000000000000
+	Siblings:	191
+)
+
+(RectD.261
+	Left:	1058465.39438793900000
+	Top:	1112847.84770867620000
+	Right:	1061660.58444604250000
+	Bottom:	1112191.75118750500000
+)
+
+(GLabel.262
+	Bounds:	263
+	Sym:	264
+	Text:	"1"
+	Spacing:	1.00000000000000
+	Siblings:	273
+)
+
+(RectD.263
+	Left:	1033483.79374106730000
+	Top:	1125683.76480000000000
+	Right:	1033805.28103644120000
+	Bottom:	1125027.66827882870000
+)
+
+(TxSym.264
+	Color:	265
+	Scale:	67
+	Font:	266
+	BgColor:	271
+	OlColor:	272
+	Size:	47238.94952432488900
+)
+
+(TClr.265
+)
+
+(NFont.266
+	Family:	267
+	Name:	268
+	Style:	269
+	CommonFamily:	270
+	Weight:	1
+	Wideness:	1
+	UseCaching:	1
+)
+
+(AVStr.267
+	S:	"Arial"
+)
+
+(AVStr.268
+	S:	"Arial"
+)
+
+(AVStr.269
+	S:	"Normal"
+)
+
+(AVStr.270
+	S:	"Helvetica"
+)
+
+(TClr.271
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.272
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(List.273
+	Child:	262
+	Child:	274
+	Child:	276
+	Child:	278
+	Child:	280
+	Child:	282
+)
+
+(GLabel.274
+	Bounds:	275
+	Sym:	264
+	Text:	"2"
+	Spacing:	1.00000000000000
+	Siblings:	273
+)
+
+(RectD.275
+	Left:	1042555.97774106900000
+	Top:	1125383.06566058590000
+	Right:	1042877.46503644300000
+	Bottom:	1124726.96913941460000
+)
+
+(GLabel.276
+	Bounds:	277
+	Sym:	264
+	Text:	"3"
+	Spacing:	1.00000000000000
+	Siblings:	273
+)
+
+(RectD.277
+	Left:	1045225.56524563220000
+	Top:	1121661.33948944650000
+	Right:	1045547.05254100610000
+	Bottom:	1121005.24296827520000
+)
+
+(GLabel.278
+	Bounds:	279
+	Sym:	264
+	Text:	"4"
+	Spacing:	1.00000000000000
+	Siblings:	273
+)
+
+(RectD.279
+	Left:	1033542.09300149560000
+	Top:	1121755.45151744950000
+	Right:	1033863.58029686950000
+	Bottom:	1121099.35499627820000
+)
+
+(GLabel.280
+	Bounds:	281
+	Sym:	264
+	Text:	"5"
+	Spacing:	1.00000000000000
+	Siblings:	273
+)
+
+(RectD.281
+	Left:	1033616.51480940650000
+	Top:	1124111.66066223850000
+	Right:	1033938.00210478040000
+	Bottom:	1123455.56414106720000
+)
+
+(GLabel.282
+	Bounds:	283
+	Sym:	264
+	Text:	"6"
+	Spacing:	1.00000000000000
+	Siblings:	273
+)
+
+(RectD.283
+	Left:	1033155.74219999900000
+	Top:	1124304.88175792010000
+	Right:	1033477.22949537300000
+	Bottom:	1123648.78523674890000
+)
+
+(MapDpy.284
+	Left:	1030125.61155548780000
+	Bottom:	1117072.84212774990000
+	Top:	1128190.29559024960000
+	Right:	1048332.29001798810000
+	Scale:	67
+	FrameTop:	5.73958333333333
+	FrameRight:	5.39583333333333
+	PageDpy:	285
+	FitToPage:	1
+	MouseLoc:	287
+)
+
+(PageDpy.285
+	Top:	5.73958333333333
+	Right:	5.39583333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	286
+	ZoomRight:	5.39583333333333
+	ZoomTop:	5.73958333333333
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.286
+	N:	96.00000000000000
+)
+
+(PointD.287
+	x:	1030195.90761132760000
+	y:	1124090.21201767490000
+)
+
+(Numb.288
+)
+
+(FTheme.289
+	Name:	"26_jarqued.shp"
+	Source:	290
+	Flags:	0x06
+	Legend:	307
+	Threshold:	316
+	View:	56
+	GSet:	317
+	LegEditScript:	"View.EditLegend"
+	TxPos:	318
+	LabelField:	295
+	SnapTolCursor:	1
+)
+
+(ShpSrc.290
+	Name:	291
+	FTab:	293
+)
+
+(SrcName.291
+	FileName:	292
+	Name:	"26_jarqued.shp"
+	SubName:	"ArcZ"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.292
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarqued.shp"
+)
+
+(FTab.293
+	Name:	"26_jarqued.dbf"
+	BTab:	294
+	Fields:	305
+	Fields:	295
+	Fields:	296
+	Fields:	297
+	Fields:	298
+	Fields:	299
+	Fields:	300
+	Fields:	301
+	Fields:	302
+	Fields:	303
+	SelBits:	306
+	FSrc:	290
+)
+
+(dBASE.294
+	Name:	"26_jarqued.dbf"
+	Fields:	295
+	Fields:	296
+	Fields:	297
+	Fields:	298
+	Fields:	299
+	Fields:	300
+	Fields:	301
+	Fields:	302
+	Fields:	303
+	FileName:	304
+)
+
+(Field.295
+	Name:	"Nombre_geo"
+	Btab:	294
+	Alias:	"Nombre_geo"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.296
+	Name:	"Estado_dre"
+	Btab:	294
+	Alias:	"Estado_dre"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.297
+	Name:	"Proyecto"
+	Btab:	294
+	Alias:	"Proyecto"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.298
+	Name:	"Symbol"
+	Btab:	294
+	Alias:	"Symbol"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.299
+	Name:	"Fecha"
+	Btab:	294
+	Alias:	"Fecha"
+	Visible:	1
+	Type:	10
+	Order:	-1
+)
+
+(Field.300
+	Name:	"Dispersion"
+	Btab:	294
+	Alias:	"Dispersion"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.301
+	Name:	"Shape_leng"
+	Btab:	294
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.302
+	Name:	"Objectid"
+	Btab:	294
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.303
+	Name:	"Globalid"
+	Btab:	294
+	Alias:	"Globalid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.304
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarqued.dbf"
+)
+
+(Field.305
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.306
+	NumBits:	1226
+
+)
+
+(Legend.307
+	SymType:	0x01
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	308
+	Class:	311
+	StdDevs:	1.00000000000000
+	NullSym:	312
+	NullValues:	314
+	StatValues:	315
+	Precision:	-3
+)
+
+(SymList.308
+	Child:	309
+)
+
+(BLnSym.309
+	Color:	310
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.310
+	Red:	0x14d3
+	Green:	0xa4f2
+	Blue:	0xac00
+)
+
+(LClass.311
+	IsText:	1
+	Precision:	-3
+)
+
+(BLnSym.312
+	Color:	313
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.313
+	Name:	"Transparent"
+)
+
+(NameDict.314
+)
+
+(NameDict.315
+)
+
+(Thresh.316
+)
+
+(GSet.317
+	Child:	63
+	Child:	76
+	Child:	78
+	Child:	80
+	Child:	82
+	Child:	84
+	Child:	86
+	Child:	88
+	Child:	90
+	Child:	92
+	Child:	94
+	Child:	96
+	Child:	98
+	Child:	100
+	Child:	102
+	Child:	104
+	Child:	106
+	Child:	108
+	Child:	110
+	Child:	112
+	Child:	114
+	Child:	116
+	Child:	118
+	Child:	120
+	Child:	122
+	Child:	124
+	Child:	126
+	Child:	128
+	Child:	130
+	Child:	132
+	Child:	134
+	Child:	136
+	Child:	138
+	Child:	140
+	Child:	142
+	Child:	144
+	Child:	146
+	Child:	148
+	Child:	150
+	Child:	152
+	Child:	154
+	Child:	156
+	Child:	158
+	Child:	160
+	Child:	162
+	Child:	164
+	Child:	166
+	Child:	168
+	Child:	170
+	Child:	172
+	Child:	174
+	Child:	176
+	Child:	178
+)
+
+(TxPosArc.318
+	HAlign:	3
+	VAlign:	1
+)
+
+(FTheme.319
+	Name:	"26_jarcien.shp"
+	Source:	320
+	Flags:	0x06
+	Legend:	334
+	Threshold:	347
+	View:	56
+	GSet:	348
+	LegEditScript:	"View.EditLegend"
+	TxPos:	349
+	LabelField:	325
+	SnapTolCursor:	1
+)
+
+(ShpSrc.320
+	Name:	321
+	FTab:	323
+)
+
+(SrcName.321
+	FileName:	322
+	Name:	"26_jarcien.shp"
+	SubName:	"PolygonZ"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.322
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarcien.shp"
+)
+
+(FTab.323
+	Name:	"26_jarcien.dbf"
+	BTab:	324
+	Fields:	332
+	Fields:	325
+	Fields:	326
+	Fields:	327
+	Fields:	328
+	Fields:	329
+	Fields:	330
+	SelBits:	333
+	FSrc:	320
+)
+
+(dBASE.324
+	Name:	"26_jarcien.dbf"
+	Fields:	325
+	Fields:	326
+	Fields:	327
+	Fields:	328
+	Fields:	329
+	Fields:	330
+	FileName:	331
+)
+
+(Field.325
+	Name:	"Nombre_geo"
+	Btab:	324
+	Alias:	"Nombre_geo"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.326
+	Name:	"Proyecto"
+	Btab:	324
+	Alias:	"Proyecto"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.327
+	Name:	"Symbol"
+	Btab:	324
+	Alias:	"Symbol"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.328
+	Name:	"Fecha"
+	Btab:	324
+	Alias:	"Fecha"
+	Visible:	1
+	Type:	10
+	Order:	-1
+)
+
+(Field.329
+	Name:	"Shape_leng"
+	Btab:	324
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.330
+	Name:	"Shape_area"
+	Btab:	324
+	Alias:	"Shape_area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.331
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarcien.dbf"
+)
+
+(Field.332
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.333
+	NumBits:	12
+
+)
+
+(Legend.334
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	335
+	Class:	340
+	StdDevs:	1.00000000000000
+	NullSym:	341
+	NullValues:	345
+	StatValues:	346
+	Precision:	-3
+)
+
+(SymList.335
+	Child:	336
+)
+
+(BShSym.336
+	Color:	337
+	Outline:	1
+	OutlineColor:	338
+	OutlineWidth:	0.10000000000000
+	BgColor:	339
+)
+
+(TClr.337
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.338
+)
+
+(TClr.339
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.340
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.341
+	Color:	342
+	Outline:	1
+	OutlineColor:	343
+	OutlineWidth:	0.10000000000000
+	BgColor:	344
+)
+
+(TClr.342
+	Name:	"Transparent"
+)
+
+(TClr.343
+	Name:	"Transparent"
+)
+
+(TClr.344
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.345
+)
+
+(NameDict.346
+)
+
+(Thresh.347
+)
+
+(GSet.348
+)
+
+(TxPosPly.349
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.350
+	Name:	"26_jarrios.shp"
+	Source:	351
+	Flags:	0x06
+	Legend:	367
+	Threshold:	380
+	View:	56
+	GSet:	381
+	LegEditScript:	"View.EditLegend"
+	TxPos:	382
+	LabelField:	356
+	SnapTolCursor:	1
+)
+
+(ShpSrc.351
+	Name:	352
+	FTab:	354
+)
+
+(SrcName.352
+	FileName:	353
+	Name:	"26_jarrios.shp"
+	SubName:	"PolygonZ"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.353
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarrios.shp"
+)
+
+(FTab.354
+	Name:	"26_jarrios.dbf"
+	BTab:	355
+	Fields:	365
+	Fields:	356
+	Fields:	357
+	Fields:	358
+	Fields:	359
+	Fields:	360
+	Fields:	361
+	Fields:	362
+	Fields:	363
+	SelBits:	366
+	FSrc:	351
+)
+
+(dBASE.355
+	Name:	"26_jarrios.dbf"
+	Fields:	356
+	Fields:	357
+	Fields:	358
+	Fields:	359
+	Fields:	360
+	Fields:	361
+	Fields:	362
+	Fields:	363
+	FileName:	364
+)
+
+(Field.356
+	Name:	"Nombre_geo"
+	Btab:	355
+	Alias:	"Nombre_geo"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.357
+	Name:	"Proyecto"
+	Btab:	355
+	Alias:	"Proyecto"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.358
+	Name:	"Symbol"
+	Btab:	355
+	Alias:	"Symbol"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.359
+	Name:	"Fecha"
+	Btab:	355
+	Alias:	"Fecha"
+	Visible:	1
+	Type:	10
+	Order:	-1
+)
+
+(Field.360
+	Name:	"Shape_leng"
+	Btab:	355
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.361
+	Name:	"Shape_area"
+	Btab:	355
+	Alias:	"Shape_area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.362
+	Name:	"Objectid"
+	Btab:	355
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.363
+	Name:	"Globalid"
+	Btab:	355
+	Alias:	"Globalid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.364
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarrios.dbf"
+)
+
+(Field.365
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.366
+	NumBits:	55
+
+)
+
+(Legend.367
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	368
+	Class:	373
+	StdDevs:	1.00000000000000
+	NullSym:	374
+	NullValues:	378
+	StatValues:	379
+	Precision:	-3
+)
+
+(SymList.368
+	Child:	369
+)
+
+(BShSym.369
+	Color:	370
+	Outline:	1
+	OutlineColor:	371
+	OutlineWidth:	0.10000000000000
+	BgColor:	372
+)
+
+(TClr.370
+	Red:	0x4059
+	Green:	0x5999
+	Blue:	0xc3e3
+)
+
+(TClr.371
+)
+
+(TClr.372
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.373
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.374
+	Color:	375
+	Outline:	1
+	OutlineColor:	376
+	OutlineWidth:	0.10000000000000
+	BgColor:	377
+)
+
+(TClr.375
+	Name:	"Transparent"
+)
+
+(TClr.376
+	Name:	"Transparent"
+)
+
+(TClr.377
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.378
+)
+
+(NameDict.379
+)
+
+(Thresh.380
+)
+
+(GSet.381
+	Child:	180
+	Child:	192
+	Child:	194
+	Child:	196
+	Child:	198
+	Child:	200
+	Child:	202
+	Child:	204
+	Child:	206
+	Child:	208
+	Child:	210
+	Child:	212
+	Child:	214
+	Child:	216
+	Child:	218
+	Child:	220
+	Child:	222
+	Child:	224
+	Child:	226
+	Child:	228
+	Child:	230
+	Child:	232
+	Child:	234
+	Child:	236
+	Child:	238
+	Child:	240
+	Child:	242
+	Child:	244
+	Child:	246
+	Child:	248
+	Child:	250
+	Child:	252
+	Child:	254
+	Child:	256
+	Child:	258
+	Child:	260
+)
+
+(TxPosPly.382
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.383
+	Name:	"26_jarchoco.shp"
+	Source:	384
+	Flags:	0x06
+	Legend:	403
+	Threshold:	417
+	View:	56
+	GSet:	418
+	LegEditScript:	"View.EditLegend"
+	TxPos:	419
+	LabelField:	390
+	SnapTolCursor:	1
+)
+
+(ShpSrc.384
+	Name:	385
+	FTab:	387
+)
+
+(SrcName.385
+	FileName:	386
+	Name:	"26_jarchoco.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.386
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarchoco.shp"
+)
+
+(FTab.387
+	Name:	"26_jarchoco.dbf"
+	BTab:	388
+	Fields:	401
+	Fields:	389
+	Fields:	390
+	Fields:	391
+	Fields:	392
+	Fields:	393
+	Fields:	394
+	Fields:	395
+	Fields:	396
+	Fields:	397
+	Fields:	398
+	Fields:	399
+	SelBits:	402
+	FSrc:	384
+)
+
+(dBASE.388
+	Name:	"26_jarchoco.dbf"
+	Fields:	389
+	Fields:	390
+	Fields:	391
+	Fields:	392
+	Fields:	393
+	Fields:	394
+	Fields:	395
+	Fields:	396
+	Fields:	397
+	Fields:	398
+	Fields:	399
+	FileName:	400
+)
+
+(Field.389
+	Name:	"Objectid"
+	Btab:	388
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.390
+	Name:	"Nom_munici"
+	Btab:	388
+	Alias:	"Nom_munici"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.391
+	Name:	"Cod_depto"
+	Btab:	388
+	Alias:	"Cod_depto"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.392
+	Name:	"Id_espacia"
+	Btab:	388
+	Alias:	"Id_espacia"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.393
+	Name:	"Area_ofici"
+	Btab:	388
+	Alias:	"Area_ofici"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.394
+	Name:	"Nombre_dep"
+	Btab:	388
+	Alias:	"Nombre_dep"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.395
+	Name:	"Entidad_te"
+	Btab:	388
+	Alias:	"Entidad_te"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.396
+	Name:	"Shape_area"
+	Btab:	388
+	Alias:	"Shape_area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.397
+	Name:	"Shape_len"
+	Btab:	388
+	Alias:	"Shape_len"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.398
+	Name:	"Zona"
+	Btab:	388
+	Alias:	"Zona"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.399
+	Name:	"Mupio"
+	Btab:	388
+	Alias:	"Mupio"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.400
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jarchoco.dbf"
+)
+
+(Field.401
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.402
+	NumBits:	30
+
+)
+
+(Legend.403
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	404
+	Class:	410
+	StdDevs:	1.00000000000000
+	NullSym:	411
+	NullValues:	415
+	StatValues:	416
+	Precision:	-3
+)
+
+(SymList.404
+	Child:	405
+)
+
+(BShSym.405
+	Color:	406
+	Outline:	1
+	OutlineColor:	407
+	OutlineWidth:	3.00000000000000
+	BgColor:	408
+	Style:	0x01
+	Stipple:	409
+)
+
+(TClr.406
+	Red:	0x1a4
+	Green:	0xf17c
+	Blue:	0x4054
+)
+
+(TClr.407
+	Red:	0x77d5
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.408
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.409
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00000000 
+)
+
+(LClass.410
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.411
+	Color:	412
+	Outline:	1
+	OutlineColor:	413
+	OutlineWidth:	0.10000000000000
+	BgColor:	414
+)
+
+(TClr.412
+	Name:	"Transparent"
+)
+
+(TClr.413
+	Name:	"Transparent"
+)
+
+(TClr.414
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.415
+)
+
+(NameDict.416
+)
+
+(Thresh.417
+)
+
+(GSet.418
+)
+
+(TxPosPly.419
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.420
+	Name:	"26_jacomun.shp"
+	Source:	421
+	Flags:	0x06
+	Legend:	432
+	Threshold:	445
+	View:	56
+	GSet:	446
+	LegEditScript:	"View.EditLegend"
+	TxPos:	447
+	LabelField:	427
+	SnapTolCursor:	1
+)
+
+(ShpSrc.421
+	Name:	422
+	FTab:	424
+)
+
+(SrcName.422
+	FileName:	423
+	Name:	"26_jacomun.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.423
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jacomun.shp"
+)
+
+(FTab.424
+	Name:	"26_jacomun.dbf"
+	BTab:	425
+	Fields:	430
+	Fields:	426
+	Fields:	427
+	Fields:	428
+	SelBits:	431
+	FSrc:	421
+)
+
+(dBASE.425
+	Name:	"26_jacomun.dbf"
+	Fields:	426
+	Fields:	427
+	Fields:	428
+	FileName:	429
+)
+
+(Field.426
+	Name:	"Id"
+	Btab:	425
+	Alias:	"Id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.427
+	Name:	"Comuna"
+	Btab:	425
+	Alias:	"Comuna"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.428
+	Name:	"N_barrio"
+	Btab:	425
+	Alias:	"N_barrio"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.429
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jacomun.dbf"
+)
+
+(Field.430
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.431
+	NumBits:	94
+
+)
+
+(Legend.432
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	433
+	Class:	438
+	StdDevs:	1.00000000000000
+	NullSym:	439
+	NullValues:	443
+	StatValues:	444
+	Precision:	-3
+)
+
+(SymList.433
+	Child:	434
+)
+
+(BShSym.434
+	Color:	435
+	Outline:	1
+	OutlineColor:	436
+	OutlineWidth:	1.00000000000000
+	BgColor:	437
+)
+
+(TClr.435
+	Red:	0xfa4e
+	Green:	0xc33b
+	Blue:	0xff00
+)
+
+(TClr.436
+	Red:	0x77d5
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.437
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.438
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.439
+	Color:	440
+	Outline:	1
+	OutlineColor:	441
+	OutlineWidth:	0.10000000000000
+	BgColor:	442
+)
+
+(TClr.440
+	Name:	"Transparent"
+)
+
+(TClr.441
+	Name:	"Transparent"
+)
+
+(TClr.442
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.443
+)
+
+(NameDict.444
+)
+
+(Thresh.445
+)
+
+(GSet.446
+)
+
+(TxPosPly.447
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.448
+	Name:	"26_jardin.shp"
+	Source:	449
+	Flags:	0x06
+	Legend:	458
+	Threshold:	471
+	View:	56
+	GSet:	472
+	LegEditScript:	"View.EditLegend"
+	TxPos:	473
+	SnapTolCursor:	1
+)
+
+(ShpSrc.449
+	Name:	450
+	FTab:	452
+)
+
+(SrcName.450
+	FileName:	451
+	Name:	"26_jardin.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.451
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jardin.shp"
+)
+
+(FTab.452
+	Name:	"26_jardin.dbf"
+	BTab:	453
+	Fields:	456
+	Fields:	454
+	SelBits:	457
+	FSrc:	449
+)
+
+(dBASE.453
+	Name:	"26_jardin.dbf"
+	Fields:	454
+	FileName:	455
+)
+
+(Field.454
+	Name:	"Id"
+	Btab:	453
+	Alias:	"Id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.455
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_jardin.dbf"
+)
+
+(Field.456
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.457
+	NumBits:	1
+
+)
+
+(Legend.458
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	459
+	Class:	464
+	StdDevs:	1.00000000000000
+	NullSym:	465
+	NullValues:	469
+	StatValues:	470
+	Precision:	-3
+)
+
+(SymList.459
+	Child:	460
+)
+
+(BShSym.460
+	Color:	461
+	Outline:	1
+	OutlineColor:	462
+	OutlineWidth:	0.10000000000000
+	BgColor:	463
+)
+
+(TClr.461
+	Red:	0xc33b
+	Green:	0xfc36
+	Blue:	0xff00
+)
+
+(TClr.462
+)
+
+(TClr.463
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.464
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.465
+	Color:	466
+	Outline:	1
+	OutlineColor:	467
+	OutlineWidth:	0.10000000000000
+	BgColor:	468
+)
+
+(TClr.466
+	Name:	"Transparent"
+)
+
+(TClr.467
+	Name:	"Transparent"
+)
+
+(TClr.468
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.469
+)
+
+(NameDict.470
+)
+
+(Thresh.471
+)
+
+(GSet.472
+)
+
+(TxPosPly.473
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.474
+	Name:	"26_zona.shp"
+	Source:	475
+	Flags:	0x04
+	Legend:	484
+	Threshold:	497
+	View:	56
+	GSet:	498
+	LegEditScript:	"View.EditLegend"
+	TxPos:	499
+	SnapTolCursor:	1
+)
+
+(ShpSrc.475
+	Name:	476
+	FTab:	478
+)
+
+(SrcName.476
+	FileName:	477
+	Name:	"26_zona.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.477
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_zona.shp"
+)
+
+(FTab.478
+	Name:	"26_zona.dbf"
+	BTab:	479
+	Fields:	482
+	Fields:	480
+	SelBits:	483
+	FSrc:	475
+)
+
+(dBASE.479
+	Name:	"26_zona.dbf"
+	Fields:	480
+	FileName:	481
+)
+
+(Field.480
+	Name:	"Id"
+	Btab:	479
+	Alias:	"Id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.481
+	Path:	"C:/SIGUTCH/TesisSIG/26-Jardin/BDjardin/VisoJardín/26_zona.dbf"
+)
+
+(Field.482
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.483
+	NumBits:	1
+
+)
+
+(Legend.484
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	485
+	Class:	490
+	StdDevs:	1.00000000000000
+	NullSym:	491
+	NullValues:	495
+	StatValues:	496
+	Precision:	-3
+)
+
+(SymList.485
+	Child:	486
+)
+
+(BShSym.486
+	Color:	487
+	Outline:	1
+	OutlineColor:	488
+	OutlineWidth:	0.10000000000000
+	BgColor:	489
+)
+
+(TClr.487
+	Red:	0xdee
+	Green:	0x80ea
+	Blue:	0x47b5
+)
+
+(TClr.488
+)
+
+(TClr.489
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.490
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.491
+	Color:	492
+	Outline:	1
+	OutlineColor:	493
+	OutlineWidth:	0.10000000000000
+	BgColor:	494
+)
+
+(TClr.492
+	Name:	"Transparent"
+)
+
+(TClr.493
+	Name:	"Transparent"
+)
+
+(TClr.494
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.495
+)
+
+(NameDict.496
+)
+
+(Thresh.497
+)
+
+(GSet.498
+)
+
+(TxPosPly.499
+	HAlign:	3
+	VAlign:	3
+)
+
+(GSet.500
+	Child:	262
+	Child:	274
+	Child:	276
+	Child:	278
+	Child:	280
+	Child:	282
+)
+
+(TxPosPt.501
+	HAlign:	4
+	VAlign:	3
+)
+
+(DocAct.502
+	Doc:	6
+)
+
+(LButn.503
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"Table.New"
+)
+
+(LButn.504
+	Disabled:	1
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.505
+	Disabled:	1
+	HelpTopic:	"Print_button"
+	Update:	"Table.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Table.Action"
+)
+
+(NameDict.506
+)
+
+(NameDict.507
+	Obj:	508
+	Obj:	509
+)
+
+(AVDict.508
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.509
+	InternalName:	"_Thor_"
+)
+
+(FN.1334
+	Path:	"$HOME"
+)
+
+(TClr.1335
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.1336
+	S:	"View"
+)
+
+(AVStr.1337
+	S:	"Table"
+)
+
+(AVStr.1338
+	S:	"Chart"
+)
+
+(AVStr.1339
+	S:	"Layout"
+)
+
+(AVStr.1340
+	S:	"Script"
+)
+
+(AVStr.1341
+	S:	"Project"
+)
+
+(AVStr.1342
+	S:	"Appl"
+)
+

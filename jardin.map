@@ -1,0 +1,39 @@
+MAP
+  NAME 'Urbano'
+  SIZE 400 400
+  EXTENT 883760.005192 920687.000001 1740238.3403 1465373.00002
+  SHAPEPATH ''
+  FONTSET ''
+  
+  IMAGECOLOR 255 255 255
+  IMAGETYPE png
+  STATUS on
+  DEBUG false
+
+  WEB
+    TEMPLATE "hello.html"
+    IMAGEPATH "/var/www/htdocs/tmp/"
+    IMAGEURL "/tmp/"
+  END
+
+
+
+  LAYER
+    NAME "Tado"
+    STATUS on
+    TYPE polygon
+    DATA "ch_mpios_cwz.shp"
+	
+
+    CLASS
+      STYLE
+        COLOR 0 175 240
+		OUTLINECOLOR 0 0 0
+      END
+	  STYLE
+        COLOR 222 173 49
+        BACKGROUNDCOLOR 255 255 255
+      END  #STYLE
+    END
+  END
+END  #MAP

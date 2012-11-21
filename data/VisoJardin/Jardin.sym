@@ -1,0 +1,65 @@
+SYMBOL
+   NAME '26_zona--0--outline'
+   FILLED true
+   TYPE ellipse
+   POINTS 1 1 END
+END #Symbol
+
+SYMBOL
+   NAME '26_jardin--0--outline'
+   FILLED true
+   TYPE ellipse
+   POINTS 1 1 END
+END #Symbol
+
+SYMBOL
+   NAME '26_jacomun--0--outline'
+   FILLED true
+   TYPE ellipse
+   POINTS 1 1 END
+END #Symbol
+
+SYMBOL
+   NAME '26_jarchoco--0--outline'
+   FILLED true
+   TYPE ellipse
+   POINTS 1 1 END
+END #Symbol
+
+SYMBOL
+   NAME '26_jarrios--0--outline'
+   FILLED true
+   TYPE ellipse
+   POINTS 1 1 END
+END #Symbol
+
+SYMBOL
+   NAME '26_jarcien--0--outline'
+   FILLED true
+   TYPE ellipse
+   POINTS 1 1 END
+END #Symbol
+
+SYMBOL
+   NAME '26_jardinext--0--0'
+   TYPE truetype
+   FONT 'ESRI_Geometric_Symbols-Normal'
+   CHARACTER '&#35;'
+   GAP 5
+END #SYMBOL
+
+SYMBOL
+   NAME '26_jardinext--0--1'
+   TYPE truetype
+   FONT 'ESRI_Geometric_Symbols-Normal'
+   CHARACTER '&#83;'
+   GAP 5
+END #SYMBOL
+
+SYMBOL
+   NAME '26_jarqued--0--0'
+   FILLED true
+   TYPE ellipse
+   POINTS 1 1 END
+END #SYMBOL
+

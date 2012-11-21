@@ -1,0 +1,526 @@
+# MapFile created with Gix Export Tool -  Mon Nov 14 18:35:30 2011
+# http://gix.sourceforge.net
+# View Date   : lunes, 14 de noviembre de 2011 18:28:11
+#
+MAP
+  NAME 'Jardin'
+  SIZE 550 400
+  EXTENT 1030125.61155549 1117072.84212775 1048332.29001799 1128190.29559025
+  UNITS meters
+  RESOLUTION 72
+  CONFIG PROJ_LIB 'C:/Proj/'
+  DATAPATTERN ''
+  TEMPLATEPATTERN ''
+  SHAPEPATH 'C:\SIGUTCH\TesisSIG\26-Jardin\BDjardin\VisoJardín\'
+  SYMBOLSET 'c:\sigutch\tesissig\26-jardin\bdjardin\visojardín\Jardin.sym'
+  FONTSET 'c:\sigutch\tesissig\26-jardin\bdjardin\visojardín\Jardin.fnt'
+  STATUS on
+  IMAGECOLOR 255 255 255
+  IMAGETYPE png24
+  STATUS on
+  DEBUG false
+
+  WEB
+    MINSCALE 0
+    IMAGEPATH ''
+    IMAGEURL ''
+    LOG 'c:\sigutch\tesissig\26-jardin\bdjardin\visojardín\Jardin.log'
+    METADATA
+      wms_extent                       "911047.23889628 930175.83152358 1119107.77078068 1451655.88975035"
+      wms_abstract                     "pcfredycm ** Gix Generated MapFile"
+      wms_encoding                     "ISO-8859-1"
+      wms_opaque                       "1"
+      wms_accesscontraints             "none"
+      wms_addresstype                  "mailing address"
+      wms_address                      ""
+      wms_city                         ""
+      wms_stateorprovince              ""
+      wms_postcode                     ""
+      wms_country                      ""
+      wms_contactelectronicmailaddress ""
+      wms_contactfacsimiletelephone    ""
+      wms_contactperson                ""
+      wms_contactorganization          ""
+      wms_contactposition              ""
+      wms_contactvoicetelephone        ""
+      wms_feature_info_mime_type       "NONE"
+      wms_fees                         "none"
+#      wms_group_title                  ""
+      wms_keywordlist                  "Jardin"
+      wms_title                        "Jardin"
+      wms_timeformat                   "YYYY-MM-DDTHH, YYYY-MM-DDTHH:MM, YYYY-MM-DD HH:MM:SS"
+      wms_onlineresource               "http://pcfredycm/cgi-bin/mapserv.exe?map=c:\sigutch\tesissig\26-jardin\bdjardin\visojardín\Jardin.map&"
+      wms_srs                          ""
+    END #METADATA
+  END  #WEB
+
+  REFERENCE
+    IMAGE 'c:\sigutch\tesissig\26-jardin\bdjardin\visojardín\Jardin.jpg'
+    EXTENT 1030125.61155549 1117072.84212775 1048332.29001799 1128190.29559025
+    STATUS on
+    COLOR -1 -1 -1
+    OUTLINECOLOR 255 255 0
+    SIZE 110 120
+    #MARKER 
+    #MARKERSIZE 
+    #MINBOXSIZE 
+    #MAXBOXSIZE 
+  END  #REFERENCE
+
+  LEGEND
+    IMAGECOLOR 255 255 255
+    OUTLINECOLOR -1 -1 -1
+    KEYSIZE 18 12
+    KEYSPACING 2 2
+    POSTLABELCACHE true
+    POSITION ll
+    LABEL
+      ANTIALIAS true
+      BACKGROUNDCOLOR 255 255 255
+      BACKGROUNDSHADOWCOLOR -1 -1 -1
+      BACKGROUNDSHADOWSIZE 2 2
+      OUTLINECOLOR -1 -1 -1
+      COLOR 0 0 0
+      FONT 'Arial-Normal'
+      SIZE 10
+      TYPE truetype
+    END
+    STATUS on
+  END  #LEGEND
+
+  SCALEBAR
+    BACKGROUNDCOLOR 255 255 255
+    COLOR 0 0 0
+    IMAGECOLOR 255 255 255
+    INTERVALS 4
+    LABEL
+      COLOR 0 0 0
+      SIZE tiny
+      TYPE bitmap
+      ANTIALIAS true
+    END
+    OUTLINECOLOR 0 0 0
+    POSITION lr
+    POSTLABELCACHE true
+    SIZE 200 4
+    STATUS on
+    STYLE 0
+    UNITS meters
+  END   #SCALEBAR
+
+  QUERYMAP
+    STYLE hilite
+    STATUS on
+    COLOR 255 255 0
+  END   #QUERYMAP
+
+  LAYER  #26_zona.shp
+    TRANSPARENCY 100
+    NAME '26_zona.shp'
+    METADATA
+      gix_layername        "26_zona.shp"
+      gix_layerfieldnames  "ID"
+      gix_layerfieldalias  "Id"
+      wms_abstract         "pcfredycm 26_zona.shp Gix Generated MapFile"
+      wms_extent           "1007692.78781025 1100934.16747228 1072328.89043975 1142765.19356920"
+      wms_keywordlist      "26_zona.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_zona.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_zona.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS off
+    DEBUG false
+    TRANSFORM true
+    TYPE polygon
+    CLASS
+      NAME '26_zona.shp'
+      TEMPLATE 'template.html'
+      #RASTERFILL_STYLE_SOLID
+      STYLE
+        COLOR 13 128 71
+        BACKGROUNDCOLOR 255 255 255
+      END  #STYLE
+      #OUTLINE SYMBOL
+      STYLE
+        OUTLINECOLOR 0 0 0
+        SYMBOL '26_zona--0--outline'
+        SIZE 1
+      END
+    END #CLASS
+  END  #LAYER
+
+  LAYER  #26_jardin.shp
+    TRANSPARENCY 100
+    NAME '26_jardin.shp'
+    METADATA
+      gix_layername        "26_jardin.shp"
+      gix_layerfieldnames  "ID"
+      gix_layerfieldalias  "Id"
+      wms_abstract         "pcfredycm 26_jardin.shp Gix Generated MapFile"
+      wms_extent           "1032608.34043674 1118588.85850900 1045849.56113674 1126674.27920900"
+      wms_keywordlist      "26_jardin.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_jardin.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_jardin.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS on
+    DEBUG false
+    TRANSFORM true
+    TYPE polygon
+    CLASS
+      NAME '26_jardin.shp'
+      TEMPLATE 'template.html'
+      #RASTERFILL_STYLE_SOLID
+      STYLE
+        COLOR 195 252 255
+        BACKGROUNDCOLOR 255 255 255
+      END  #STYLE
+      #OUTLINE SYMBOL
+      STYLE
+        OUTLINECOLOR 0 0 0
+        SYMBOL '26_jardin--0--outline'
+        SIZE 1
+      END
+    END #CLASS
+  END  #LAYER
+
+  LAYER  #26_jacomun.shp
+    TRANSPARENCY 100
+    NAME '26_jacomun.shp'
+    METADATA
+      gix_layername        "26_jacomun.shp"
+      gix_layerfieldnames  "ID|COMUNA|N_BARRIO"
+      gix_layerfieldalias  "Id|Comuna|N_barrio"
+      wms_abstract         "pcfredycm 26_jacomun.shp Gix Generated MapFile"
+      wms_extent           "1045844.35109104 1119266.34141253 1049866.47437686 1123986.00746120"
+      wms_keywordlist      "26_jacomun.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_jacomun.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_jacomun.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS on
+    DEBUG false
+    TRANSFORM true
+    TYPE polygon
+    CLASS
+      NAME '26_jacomun.shp'
+      TEMPLATE 'template.html'
+      #RASTERFILL_STYLE_SOLID
+      STYLE
+        COLOR 250 195 255
+        BACKGROUNDCOLOR 255 255 255
+      END  #STYLE
+      #OUTLINE SYMBOL
+      STYLE
+        OUTLINECOLOR 119 0 130
+        SYMBOL '26_jacomun--0--outline'
+        SIZE 1
+      END
+    END #CLASS
+  END  #LAYER
+
+  LAYER  #26_jarchoco.shp
+    TRANSPARENCY 100
+    NAME '26_jarchoco.shp'
+    METADATA
+      gix_layername        "26_jarchoco.shp"
+      gix_layerfieldnames  "OBJECTID|NOM_MUNICI|COD_DEPTO|ID_ESPACIA|AREA_OFICI|NOMBRE_DEP|ENTIDAD_TE|SHAPE_AREA|SHAPE_LEN|ZONA|MUPIO"
+      gix_layerfieldalias  "Objectid|Nom_munici|Cod_depto|Id_espacia|Area_ofici|Nombre_dep|Entidad_te|Shape_area|Shape_len|Zona|Mupio"
+      wms_abstract         "pcfredycm 26_jarchoco.shp Gix Generated MapFile"
+      wms_extent           "911047.23889628 930175.83152358 1119107.77078068 1451655.88975035"
+      wms_keywordlist      "26_jarchoco.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_jarchoco.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_jarchoco.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS on
+    DEBUG false
+    TRANSFORM true
+    TYPE polygon
+    CLASS
+      NAME '26_jarchoco.shp'
+      TEMPLATE 'template.html'
+      #RASTERFILL_STYLE_EMPTY
+      STYLE
+        COLOR 1 241 64
+        BACKGROUNDCOLOR 255 255 255
+        COLOR -1 -1 -1
+      END  #STYLE
+      #OUTLINE SYMBOL
+      STYLE
+        OUTLINECOLOR 119 0 130
+        SYMBOL '26_jarchoco--0--outline'
+        SIZE 3
+      END
+    END #CLASS
+  END  #LAYER
+
+  LAYER  #26_jarrios.shp
+    TRANSPARENCY 100
+    NAME '26_jarrios.shp'
+    METADATA
+      gix_layername        "26_jarrios.shp"
+      gix_layerfieldnames  "NOMBRE_GEO|PROYECTO|SYMBOL|FECHA|SHAPE_LENG|SHAPE_AREA|OBJECTID|GLOBALID"
+      gix_layerfieldalias  "Nombre_geo|Proyecto|Symbol|Fecha|Shape_leng|Shape_area|Objectid|Globalid"
+      wms_abstract         "pcfredycm 26_jarrios.shp Gix Generated MapFile"
+      wms_extent           "1007692.78781025 1100934.16747228 1072328.89043975 1142765.19356920"
+      wms_keywordlist      "26_jarrios.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_jarrios.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_jarrios.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS on
+    DEBUG false
+    TRANSFORM true
+    CLASS
+      NAME '26_jarrios.shp'
+      TEMPLATE 'template.html'
+      #RASTERFILL_STYLE_SOLID
+      STYLE
+        COLOR 64 89 195
+        BACKGROUNDCOLOR 255 255 255
+      END  #STYLE
+      #OUTLINE SYMBOL
+      STYLE
+        OUTLINECOLOR 0 0 0
+        SYMBOL '26_jarrios--0--outline'
+        SIZE 1
+      END
+      LABEL
+        TYPE truetype
+        COLOR 0 0 0
+        ENCODING "ISO-8859-1"
+        FONT 'Arial-Normal'
+        PARTIALS true
+        SIZE 14
+        ANTIALIAS true
+        FORCE false
+      END
+    END #CLASS
+    LABELITEM 'Nombre_geo'
+  END  #LAYER
+
+  LAYER  #26_jarcien.shp
+    TRANSPARENCY 100
+    NAME '26_jarcien.shp'
+    METADATA
+      gix_layername        "26_jarcien.shp"
+      gix_layerfieldnames  "NOMBRE_GEO|PROYECTO|SYMBOL|FECHA|SHAPE_LENG|SHAPE_AREA"
+      gix_layerfieldalias  "Nombre_geo|Proyecto|Symbol|Fecha|Shape_leng|Shape_area"
+      wms_abstract         "pcfredycm 26_jarcien.shp Gix Generated MapFile"
+      wms_extent           "1030845.76848477 1126478.12896005 1043697.66409862 1142718.21381877"
+      wms_keywordlist      "26_jarcien.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_jarcien.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_jarcien.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS on
+    DEBUG false
+    TRANSFORM true
+    CLASS
+      NAME '26_jarcien.shp'
+      TEMPLATE 'template.html'
+      #RASTERFILL_STYLE_SOLID
+      STYLE
+        COLOR 0 255 255
+        BACKGROUNDCOLOR 255 255 255
+      END  #STYLE
+      #OUTLINE SYMBOL
+      STYLE
+        OUTLINECOLOR 0 0 0
+        SYMBOL '26_jarcien--0--outline'
+        SIZE 1
+      END
+    END #CLASS
+  END  #LAYER
+
+  LAYER  #26_jardinext.shp
+    TRANSPARENCY 100
+    NAME '26_jardinext.shp'
+    METADATA
+      gix_layername        "26_jardinext.shp"
+      gix_layerfieldnames  "ITEM|CORX|CORY|DESCRIP|POINT_X|POINT_Y"
+      gix_layerfieldalias  "Item|Corx|Cory|Descrip|Point_x|Point_y"
+      wms_abstract         "pcfredycm 26_jardinext.shp Gix Generated MapFile"
+      wms_extent           "1033155.74220000 1120677.19142721 1045547.05254101 1125683.76480000"
+      wms_keywordlist      "26_jardinext.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_jardinext.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_jardinext.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS on
+    DEBUG false
+    TRANSFORM true
+    TYPE point
+    CLASS
+      NAME '26_jardinext.shp'
+      TEMPLATE 'template.html'
+      ##MARKER: COMPOSITEMARKER(2)
+      #BASICMARKER_STYLE_PATTERN
+      STYLE
+        SYMBOL '26_jardinext--0--0'
+        SIZE 14
+        COLOR 255 0 0
+        BACKGROUNDCOLOR -1 -1 -1
+      END  #STYLE
+      #BASICMARKER_STYLE_PATTERN
+      STYLE
+        SYMBOL '26_jardinext--0--1'
+        SIZE 14
+        COLOR 0 0 0
+        BACKGROUNDCOLOR -1 -1 -1
+      END  #STYLE
+      LABEL
+        TYPE truetype
+        COLOR 0 0 0
+        ENCODING "ISO-8859-1"
+        FONT 'Arial-Normal'
+        PARTIALS true
+        POSITION cr
+        SIZE 14
+        ANTIALIAS true
+        FORCE false
+      END
+    END #CLASS
+    LABELITEM 'Descrip'
+  END  #LAYER
+
+  LAYER  #26_jarqued.shp
+    TRANSPARENCY 100
+    NAME '26_jarqued.shp'
+    METADATA
+      gix_layername        "26_jarqued.shp"
+      gix_layerfieldnames  "NOMBRE_GEO|ESTADO_DRE|PROYECTO|SYMBOL|FECHA|DISPERSION|SHAPE_LENG|OBJECTID|GLOBALID"
+      gix_layerfieldalias  "Nombre_geo|Estado_dre|Proyecto|Symbol|Fecha|Dispersion|Shape_leng|Objectid|Globalid"
+      wms_abstract         "pcfredycm 26_jarqued.shp Gix Generated MapFile"
+      wms_extent           "1007692.78781025 1100934.16747228 1072328.89043975 1142765.19356920"
+      wms_keywordlist      "26_jarqued.shp, pcfredycm, Jardin"
+      wms_opaque           "0"
+      wms_srs              "NONE"
+      wms_title            "26_jarqued.shp"
+#      wms_default          "YYYY-MM-DD HH:MM:SS"
+#      wms_timeextent       ""
+#      wms_timeitem         ""
+    END  #METADATA
+    TOLERANCE 3
+    TOLERANCEUNITS pixels
+    DATA '26_jarqued.shp'
+    HEADER 'header.html'
+    FOOTER 'footer.html'
+    LABELCACHE on
+#    TILEINDEX ''
+#    TILEITEM  ''
+    STATUS on
+    DEBUG false
+    TRANSFORM true
+    CLASS
+      NAME '26_jarqued.shp'
+      TEMPLATE 'template.html'
+      #PEN
+      STYLE
+        SYMBOL '26_jarqued--0--0'
+        SIZE 1
+        COLOR 20 164 172
+      END  #STYLE
+      LABEL
+        TYPE truetype
+        COLOR 0 0 0
+        ENCODING "ISO-8859-1"
+        FONT 'Arial-Normal'
+        PARTIALS true
+        SIZE 14
+        ANTIALIAS true
+        FORCE false
+      END
+    END #CLASS
+    LABELITEM 'Nombre_geo'
+  END  #LAYER
+
+OUTPUTFORMAT
+   NAME png24
+   DRIVER "GD/PNG"
+   MIMETYPE "image/png"
+   IMAGEMODE RGBA
+   EXTENSION png
+   TRANSPARENT on
+END  #OUTPUTFORMAT
+
+END  #MAP
+
